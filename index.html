@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+	<meta charset="utf-8">
+	<title>Consumir Indicadores Económicos</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	
+	<div class="block">
+		<div class="container-fluid">
+			<div class="block__titulo">
+				<h2>Indicadores Económicos</h2>
+			</div><!--block titulo-->
+
+			<div class="block__seccion">
+				<div class="row">
+					<div class="col-xs-12 col-sm-3 col-md-6 text-center primer-indicador dolar">
+						<h5>Convierte peso a dolar <span class="dolar__text"></span></h5>
+						<input id="dolar" class="text-center dolar__input" type="text">
+						<button type="button" class="btn btn-primary dolar__button">Convertir</button>
+						<div class="resultado dolar__answer"></div><!--resultado-->
+						<button type="reset" class="btn btn-danger dolar__reset">Borrar</button>
+					</div><!--fin col-->
+
+					<div class="col-xs-12 col-sm-3 col-md-6 text-center primer-indicador--color euro">
+						<h5>Convierte peso a euro <span class="euro__text"></span></h5>
+						<input class="text-center euro__input" type="text">
+						<button type="button" class="btn btn-primary euro__button">Convertir</button>
+						<div class="resultado euro__answer"> </div><!--resultado-->
+						<button type="reset" class="btn btn-danger euro__reset">Borrar</button>
+					</div><!--fin col-->
+					
+				</div><!--fin row-->
+				<div class="row">
+					<div class="col-xs-12 col-sm-3 col-md-6 text-center primer-indicador utm">
+						<h5>Convierte de peso a UTM<span class="utm__text"></span></h5>
+						<input class="text-center utm__input" type="text">
+						<button type="button" class="btn btn-primary utm__button">Convertir</button>
+						<div class="resultado utm__answer"></div><!--resultado-->
+						<button type="reset" class="btn btn-danger utm__reset">Borrar</button>
+					</div><!--fin col-->
+
+					<div class="col-xs-12 col-sm-3 col-md-6 text-center primer-indicador--color uf">
+						<h5>Convierte peso chileno a uf <span class="uf__text"></span></h5>
+						<input class="text-center uf__input" type="text">
+						<button type="button" class="btn btn-primary uf__button">Convertir</button>
+						<div class="resultado uf__answer"></div><!--resultado-->
+						<button type="reset" class="btn btn-danger uf__reset">Borrar</button>
+					</div><!--fin col-->
+					
+				</div><!--fin row-->
+			</div><!--block seccion--indicadores-->
+		</div><!--fin container-->
+	</div><!--fin block-->
+
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
